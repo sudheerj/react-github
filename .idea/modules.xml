@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/spa-github-pages.iml" filepath="$PROJECT_DIR$/.idea/spa-github-pages.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../react-github/.idea/spa-github-pages.iml" filepath="$PROJECT_DIR$/../react-github/.idea/spa-github-pages.iml" />
     </modules>
   </component>
 </project>
