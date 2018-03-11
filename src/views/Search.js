@@ -16,7 +16,7 @@ class Search extends React.Component {
 
     handleClick = (e) => {
         e.preventDefault();
-        this.props.history.push(`/${this.state.value}`);
+        this.props.history.push(`/react-github/${this.state.value}`);
     }
 
     render() {
