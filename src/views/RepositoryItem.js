@@ -8,11 +8,11 @@ function RepositoryItem({repository}) {
   const timeUpdated = moment(repository.pushed_at).fromNow();
   return (
     <li className="border-bottom" style={{paddingBottom: '50px', paddingTop: '5px'}}>
-      <h3><a href={repository.html_url} style={{color: '#0366d6'}}>{repository.name}</a></h3>
+      <h3><a href={repository.html_url} style={{color: '#0366d6', textDecoration:'underline'}}>{repository.name}</a></h3>
       <p className="text-gray .py-1">{repository.description}</p>
         <div className="pull-left f6 text-gray mt-2">
-            <span>{repository.language}</span>
-            <strong><i class="fa fa-star"></i>{repository.stargazers_count}</strong>
+            <span style={{   border : "1px solid transparent", borderRadius:"2em",padding:"0px 10px",color:"#0366d6" , lineHeight:"22px", backgroundColor:"#f1f8ff"   }}>{repository.language}</span>
+            <strong><i class="fa fa-star" style={{marginRight:"2px"}}></i>{repository.stargazers_count}</strong>
             <strong><i class="fa fa-code-fork"/> {repository.forks_count}</strong>
             <time style={{paddingLeft: '20px'}}>Updated {timeUpdated}</time>
         </div>
