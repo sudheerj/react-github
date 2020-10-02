@@ -27,6 +27,10 @@ export default class UserProfile extends React.Component {
             <div>
                 <div className="user border-bottom">
                     <img
+                        style={{
+                            border: " 3px solid black",
+                            borderRadius:"5px" 
+                        }}
                         src={user.avatar_url} width="230" height="230"
                         className="img-rounded img-responsive"
                         alt="User Avatar"/>
