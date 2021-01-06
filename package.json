@@ -15,7 +15,7 @@
   "author": "Sudheer Jonna <sudheer.jonna@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "axios": "0.13.1",
+    "axios": "0.21.1",
     "bootstrap": "^3.3.5",
     "classnames": "^2.2.5",
     "font-awesome": "^4.7.0",
