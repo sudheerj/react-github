@@ -21,7 +21,7 @@
     "font-awesome": "^4.7.0",
     "gh-pages": "^1.1.0",
     "history": "^3.0.0",
-    "moment": "^2.10.6",
+    "moment": "^2.29.4",
     "primereact": "^1.4.0",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
